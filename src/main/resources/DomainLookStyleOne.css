@@ -2,23 +2,23 @@
     -fx-font-size: 20;
     -fx-font-weight: BOLD;
     -fx-font-family: Arial;
-    -fx-text-fill: grey;
+    -fx-text-fill: #808080;
 }
 
 .button: pressed{
-    -fx-background-color: olive;
-    -fx-border-color: olive;
+    -fx-background-color: #808000;
+    -fx-border-color: #808000;
 }
 
 .table-row-cell:selected{
     -fx-font-size: 15;
     -fx-font-weight: BOLD;
-    -fx-background-color: olive;
-    -fx-border-color: olive;
+    -fx-background-color: #808000;
+    -fx-border-color: #808000;
 }
 
 .table-view {
-    -fx-background-color: olive;
+    -fx-background-color: #808000;
 }
 
 

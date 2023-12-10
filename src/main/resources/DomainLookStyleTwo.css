@@ -2,22 +2,22 @@
      -fx-font-size: 25;
      -fx-font-weight: BOLD;
      -fx-font-family: Arial;
-     -fx-text-fill: dark-blue;
+     -fx-text-fill: #00008b;
      }
 
 .button: active{
-    -fx-background-color: dark-blue;
+    -fx-background-color: #00008b;
 }
 
 .table-row-cell:selected{
      -fx-font-size: 15;
      -fx-font-weight: BOLD;
-     -fx-background-color: light blue;
+     -fx-background-color: 	#000000;
 
      }
 
 .table-view {
-     -fx-background-color: black;
+     -fx-background-color: 	#000000;
 
 
      }
