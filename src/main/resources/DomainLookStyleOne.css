@@ -1,0 +1,25 @@
+#radioButton1 {
+    -fx-font-size: 20;
+    -fx-font-weight: BOLD;
+    -fx-font-family: Arial;
+    -fx-text-fill: grey;
+}
+
+.button: pressed{
+    -fx-background-color: olive;
+    -fx-border-color: olive;
+}
+
+.table-row-cell:selected{
+    -fx-font-size: 15;
+    -fx-font-weight: BOLD;
+    -fx-background-color: olive;
+    -fx-border-color: olive;
+}
+
+.table-view {
+    -fx-background-color: olive;
+}
+
+
+

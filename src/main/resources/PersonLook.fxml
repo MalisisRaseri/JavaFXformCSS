@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane stylesheets="@PersonLook.css" id="StackPane" prefHeight="350" prefWidth="770" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxformcss.Looks.PersonLookController">
+    <children>
+        <TableView fx:id="personTable" >
+            <columns>
+                <TableColumn text="Identificator" fx:id="idColumn" />
+                <TableColumn text="Job Title" fx:id="jobTitleColumn" />
+                <TableColumn text="First and Last Name" fx:id="firstNameLastNameColumn" />
+                <TableColumn text="Phone Number" fx:id="phoneColumn" />
+                <TableColumn text="EMAIL" fx:id="emailColumn" />
+                <TableColumn text="ID Domain" fx:id="domainsNumberColumn" />
+            </columns>
+        </TableView>
+    </children>
+</StackPane>

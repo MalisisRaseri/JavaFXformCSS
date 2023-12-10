@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<StackPane stylesheets="@AppLook.css" id="StackPane" prefHeight="300" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxformcss.AppController">
+    <padding>
+        <Insets bottom="30" left="30" right ="30" top="30"/>
+    </padding>
+    <children>
+        <GridPane id="GridPane" prefHeight="300" prefWidth="320" hgap="10" vgap="15" >
+            <children>
+                <Label GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2" GridPane.rowSpan="1" text="WELCOME" fx:id="welcomeLabel" />
+                <Label GridPane.columnIndex="0" GridPane.rowIndex="1" text="User Name:  " fx:id="nameLabel" />
+                <TextField text="admin" GridPane.columnIndex="1" GridPane.rowIndex="1" fx:id="textName" />
+                <Label GridPane.columnIndex="0" GridPane.rowIndex="2" text="Password:  " fx:id="passwordLabel" />
+                <TextField text="admin" GridPane.columnIndex="1" GridPane.rowIndex="2" fx:id="textPassword"/>
+                <Button GridPane.columnIndex="1" GridPane.rowIndex="3" GridPane.columnSpan="1" GridPane.rowSpan="1" GridPane.halignment="RIGHT" GridPane.valignment="BOTTOM" text="Sign in" onAction="#handleButtonAction" fx:id="buttonSignIn"/>
+                <Label GridPane.columnIndex="0" GridPane.rowIndex="4" GridPane.columnSpan="2" GridPane.rowSpan="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" text="Check connection status" fx:id="textLabel" />
+            </children>
+        </GridPane>
+    </children>
+</StackPane>
+
+
+
+

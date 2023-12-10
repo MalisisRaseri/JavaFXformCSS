@@ -1,0 +1,38 @@
+#welcomeLabel{
+    -fx-font-size: 15;
+    -fx-font-weight: BOLD;
+    -fx-font-family: Arial;
+}
+
+ #nameLabel{
+    -fx-font-size: 15;
+    -fx-font-weight: BOLD;
+    -fx-font-family: Arial;
+}
+
+#textName {
+    -fx-font-size: 12;
+    -fx-border-color: mistyrose;
+}
+
+ #passwordLabel{
+    -fx-font-size: 15;
+    -fx-font-weight: BOLD;
+    -fx-font-family: Arial;
+}
+
+ #textPassword{
+    -fx-font-size: 12;
+    -fx-border-color: mistyrose;
+}
+
+ #buttonSignIn{
+    -fx-font-size: 15;
+    -fx-font-weight: BOLD;
+    -fx-background-color: mistyrose;
+    -fx-border-color: mistyrose;
+}
+
+.table-view {
+    -fx-background-color: grey;
+}

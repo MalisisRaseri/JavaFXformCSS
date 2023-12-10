@@ -1,0 +1,10 @@
+.table-row-cell:selected{
+    -fx-font-size: 15;
+    -fx-font-weight: BOLD;
+    -fx-background-color: mistyrose;
+    -fx-border-color: mistyrose;
+}
+
+.table-view {
+    -fx-background-color: grey;
+}

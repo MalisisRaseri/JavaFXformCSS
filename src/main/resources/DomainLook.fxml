@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<StackPane prefHeight="150" prefWidth="400" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxformcss.Looks.DomainLookController">
+    <children>
+
+        <VBox id="VBox" alignment="CENTER">
+            <Button text="Change CSS Style" onAction="#handleButtonActionChangeStyle" fx:id="changeCssButton"/>
+            <TableView fx:id="domainTable" >
+                <columns>
+                    <TableColumn text="Web Name" fx:id="webNameColumn" />
+                    <TableColumn text="Domain Name" fx:id="domainNameColumn" />
+                    <TableColumn text="IP" fx:id="ipColumn" />
+                    <TableColumn text="Registration Date" fx:id="registrationDateColumn" />
+                    <TableColumn text="Country" fx:id="countryColumn" />
+                </columns>
+            </TableView>
+        </VBox>
+
+    </children>
+</StackPane>

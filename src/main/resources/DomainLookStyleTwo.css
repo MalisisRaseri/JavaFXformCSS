@@ -1,0 +1,23 @@
+#radioButton2{
+     -fx-font-size: 25;
+     -fx-font-weight: BOLD;
+     -fx-font-family: Arial;
+     -fx-text-fill: dark-blue;
+     }
+
+.button: active{
+    -fx-background-color: dark-blue;
+}
+
+.table-row-cell:selected{
+     -fx-font-size: 15;
+     -fx-font-weight: BOLD;
+     -fx-background-color: light blue;
+
+     }
+
+.table-view {
+     -fx-background-color: black;
+
+
+     }
